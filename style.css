@@ -5,3 +5,8 @@ p {
     border: 3px solid blue;
     border-radius: .5rem;
 }
+
+.default{
+    display: block;
+    margin-top: 1rem;
+}
