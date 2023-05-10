@@ -10,28 +10,23 @@
 <body>
     <h2><u>Addition</u></h2>
     <p>5 + 1 = <span id="mathAdd"></span></p>
-    <script>
-        let add=5+1;
-        document.getElementById("mathAdd").innerHTML=add;
-    </script>
 
     <h2><u>Interesting Math</u></h2>
     <p>(4 + 6 + 9) / 77 = <span id="divMath"></span></p>
-    <script>
-        let div = (4+6+9)/77;
-        document.getElementById("divMath").innerHTML=div
-    </script>
-
+ 
     <h2><u>Multiplication</u></h2>
     <p>a = 10<br>b = 7 * a<br>9 * a = <span id="mult1"></span><br>7 * a = <span id="mult2ds"></span></p>
     <script>
         let a = 10;
-        let b = 7 * a;
         let mult = 9 * a;
+        let div = (4+6+9)/77;
+        let add=5+1;
 
+        document.getElementById("mathAdd").innerHTML=add;
+        document.getElementById("divMath").innerHTML=div
 
         document.getElementById("mult1").innerHTML = mult;
-        document.getElementById("mult2").innerHTML = b;
+        console.log('Hello');
     </script>
 </body>
 </html>
