@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>JS Tests</title>
-</head>
-<body>
-    <h2><u>Addition</u></h2>
-    <p>5 + 1 = <span id="mathAdd"></span></p>
-    <script>
-        let add=5+1;
-        document.getElementById("mathAdd").innerHTML=add;
-    </script>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Conditionals: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
 
-    <h2><u>Interesting Math</u></h2>
-    <p>(4 + 6 + 9) / 77 = <span id="divMath"></span></p>
-    <script>
-        let div = (4+6+9)/77;
-        document.getElementById("divMath").innerHTML=div
-    </script>
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
 
-    <h2><u>Multiplication</u></h2>
-    <p>a = 10<br>b = 7 * a<br>9 * a = <span id="mult1"></span><br>7 * a = <span id="mult2ds"></span></p>
-    <script>
-        let a = 10;
-        let b = 7 * a;
-        let mult = 9 * a;
+  <body>
 
+    <section class="preview"></section>
 
-        document.getElementById("mult1").innerHTML = mult;
-        document.getElementById("mult2").innerHTML = b;
-    </script>
-</body>
+  </body>
+  
+  
+  <script>
+    let season = 'summer';
+    let response;
+
+    // Add your code here
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    para1.textContent = response;
+    section.appendChild(para1);
+    
+  </script>
+
 </html>
