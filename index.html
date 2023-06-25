@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>JS Tests</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h2><u>Addition</u></h2>
-    <p>5 + 1 = <span id="mathAdd"></span></p>
 
-    <h2><u>Interesting Math</u></h2>
-    <p>(4 + 6 + 9) / 77 = <span id="divMath"></span></p>
- 
-    <h2><u>Multiplication</u></h2>
-    <p>a = 10<br>b = 7 * a<br>9 * a = <span id="mult1"></span><br>7 * a = <span id="mult2ds"></span></p>
+    <h1>This is my test</h1>
+
     <script>
-        let a = 10;
-        let mult = 9 * a;
-        let div = (4+6+9)/77;
-        let add=5+1;
+        let getUserNumber1 = prompt("Enter the first number:"); 
+        let getUserNumber2 = prompt("Enter the second number:");
 
-        document.getElementById("mathAdd").innerHTML=add;
-        document.getElementById("divMath").innerHTML=div
+        function addSeven() {return getUserNumber1 * getUserNumber2}
 
-        document.getElementById("mult1").innerHTML = mult;
-        console.log('Hello');
+        console.log(addSeven());
     </script>
+
 </body>
 </html>
