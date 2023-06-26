@@ -11,12 +11,13 @@
     <h1>This is my test</h1>
 
     <script>
-        let getUserNumber1 = prompt("Enter the first number:"); 
-        let getUserNumber2 = prompt("Enter the second number:");
+        let userSentence = prompt("Enter a Sentence");
 
-        function addSeven() {return getUserNumber1 * getUserNumber2}
+        const capitalize = sentence => sentence.charAt(0).toUpperCase() + sentence.slice(1);
 
-        console.log(addSeven());
+        let result = capitalize(userSentence);
+
+        console.log(result);
     </script>
 
 </body>
