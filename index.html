@@ -13,9 +13,9 @@
     <script>
         let userSentence = prompt("Enter a Sentence");
 
-        const capitalize = sentence => sentence.charAt(0).toUpperCase() + sentence.slice(1);
+        const lastLetter = sentence => sentence.slice(-1);
 
-        let result = capitalize(userSentence);
+        let result = lastLetter(userSentence);
 
         console.log(result);
     </script>
