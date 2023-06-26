@@ -11,13 +11,21 @@
     <h1>This is my test</h1>
 
     <script>
-        let userSentence = prompt("Enter a Sentence");
+        let answer = parseInt(prompt("Enter a number to fizzbuzz up to"));
 
-        const lastLetter = sentence => sentence.slice(-1);
+        for(let i = 1; i <= answer ;i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log('FizzBuzz');
+            } else if (i % 3 === 0) {
+                console.log('Fizz')
+            } else if (i % 5 === 0){
+                console.log('Buzz')
+            }
+            else {
+                console.log(i);
+            }
+        }
 
-        let result = lastLetter(userSentence);
-
-        console.log(result);
     </script>
 
 </body>
